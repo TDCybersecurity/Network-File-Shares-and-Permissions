@@ -1,6 +1,7 @@
 **CC Lab 7 Network Files Shares and Permissions**
 
 <h2>1 Go to portal.azure.com and confirm that DC-B and Client-B are running.</h2>
+
 ![FS 1a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/940ec209-23e5-4f95-b88b-fa74dda329cb)
 
 
@@ -70,6 +71,8 @@ Write access\>You have write access and can write text, observe "test" document.
 ![FS 6e](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/54f3b6be-2d6c-4293-b75a-3b4c6d96d585)![FS 6f](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/6bb328f6-9320-454d-ad68-48933f7dbcdb)
 
 No access\> Generates a Network Error\> You have no access.
+![FS 7h](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/00c24851-17d5-4419-b5db-eb09954745ba)
+
 ![FS 6g](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/9ce1ddc8-3451-4a5e-90c4-6025cf08ecbf)
 
 
@@ -80,12 +83,57 @@ No access\> Generates a Network Error\> You have no access.
 - Go to Security Groups \> New \> Group \> Accountants \> OK
 - Go to Domain Controller **File Explorer**\> **C: Drive**\> Accounting Folder\> Properties \>Sharing\>Share\> **ACCOUNTANTS** Add
 - Go to Client-B \> [\\DC-B](////DC-B) \> see the folders \> double click on accounting \> No access
-- Go back to ADUC and make **Bacek.Moju** a member of make him a member of the Accounts Security Group.
+- Go back to ADUC and make **Bacek.Moju** a member of the Security Groups of Accounts.
 - Go to Security Groups \> Accountants \> Members \> Add\> Bacek.Moju\> Add\>Apply\>OK\>
 - Go back to Client-B VM in the portal\> Refresh\> Go to folder and try to access accounting with bacek.moju
 - Go to DC-B\> File Explorer \> accounting folder\>Properties\>Sharing\>Share
 
 Have Client-B log out\> Log back in\> Access the accounting folder\>
 
-Go to Server Manager Dashboard \> Tools \> ADUC \> make a new Organizational Unit called \_SECURITY GROUPS.
+Go to Server Manager Dashboard \> Tools \> ADUC \> make a new Organizational Unit.
+![FS 7a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/872351e8-1446-473e-9cd6-1cd669ab8b62)
+
+Name the new Organizational Unit _SECURITY GROUPS and click OK
+![fs 7b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/49fe21e3-8ee0-4272-88fc-65f55e7cc492)
+
+In ADUC Refresh the _SECURITY GROUPOS Organization Unit 
+![FS 7c](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/70560522-af86-4a17-b7cf-0652d23a9068)
+
+Go to Security Groups and create a new Group called ACCOUNTANTS with a Global Group Scope and Group type as Security
+![FS 7e](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/4d3f1e6d-2df6-4db6-a5f6-b8aad3f4cbdc)
+
+Go to File Explorer in the Domain Controller on the C:Drive and locate the ACCOUNTANTS Security Group
+![FS 7f](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/6a14a7b8-dcfd-4d5f-bf8d-3803eb591ec9)
+
+On Client-B enter DC-B\\ and locate the Accounting Folder and  double click.
+![fs 7g](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/61d92d42-2544-407d-b95b-c15f8281a7ba)
+
+Observe NO ACCESS Network Error Windows cannot access \\dc-b accounting.
+![FS 7h](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/00c24851-17d5-4419-b5db-eb09954745ba)
+
+Go to DC-B ADUC and make Bacek.Moju a member of the Security Groups > Accounts
+![FS 7d](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0f2b1538-d439-4589-8465-662f358029a5)
+
+
+![FS 7i](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/ea2d02d2-c833-4adb-8dd1-b73937043784)
+
+Enter Bacek.Moju as the object name to select.
+![FS 7j](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/91e6fbd6-486e-4dce-a249-a4ae5d7c2508)
+
+Observe that bacek.moju has access to the accounting folder, however, the folder is empty.
+![FS 7k](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/4916f2f8-34e2-4bce-bf34-8042b0aa67b6)
+
+
+<h2> Thank you for taking the time to review my Github IT project, it demonstrates my hands-on experience with File Sharing and Permissions.</h2>
+
+
+
+
+
+
+
+
+
+
+
 
