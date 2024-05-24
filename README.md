@@ -17,7 +17,8 @@
 
 4 On **DB-B** go to **File Explorer**\> **C: Drive**\> and create 3 new folders: **read-access**, **write-access**, and **no-access**.
 
-![](RackMultipart20240524-1-trpzuw_html_9f8cacd49317ec32.png) ![](RackMultipart20240524-1-trpzuw_html_12c15072202bc99a.png)
+![FS4a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/d4dde5c4-5849-41bd-bbc7-280a916b8877)![FS4b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/ba07d58d-192d-47d8-a7f6-bfd394d8bbec)
+
 
 5 Set the following (Share Folder) **permissions** for the **Domain Users** Group.
 
