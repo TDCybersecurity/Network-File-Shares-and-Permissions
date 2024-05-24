@@ -38,6 +38,14 @@ b right click on **write-access**\>Properties \> Sharing \> Share \> type in **d
 c right click on **no-access**\> Properties \> Sharing \> Share \> type in **domain admins**\> Share \> Permission \> **read/write**\>Share\> Done
 
 read-access\>Properties\>Sharing\>Share\>domain users\>read-access\> read\>Share\>Done
+![FS5a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/846112ec-effb-4b39-a446-150198b2f4ef)![FS 5b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/350348ad-c394-47ec-8ae9-587bf739cc3f)
+![FS 5gg](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/3270514a-81b9-4304-ae1f-cde389f62a15)![FS 5ff](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/64f1bd7c-08a7-4b0a-a95f-b6d8394e140b)
+
+![FS 5e](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/9c5d6d3d-3218-4290-af13-2aad58b701cd)![FS 5d](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/4714726b-f846-4f8b-bc90-ef2b11690e41)
+
+![FS 5c](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/5a9d5cd8-fb3d-4210-a599-1d6f763cb4a6)
+
+
 
 ![](RackMultipart20240524-1-trpzuw_html_ed9884895c0ea5a7.png) ![](RackMultipart20240524-1-trpzuw_html_dba692d1829f2e6d.png)
 
