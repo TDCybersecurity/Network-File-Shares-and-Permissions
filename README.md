@@ -1,14 +1,13 @@
 **CC Lab 7 Network Files Shares and Permissions**
 
 1 Go to **portal.azure.com** and confirm that **DC-B** and **Client-B** are running.
+![FS 1a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/940ec209-23e5-4f95-b88b-fa74dda329cb)
 
-![](RackMultipart20240524-1-trpzuw_html_f2a3ef845e2df67.png)
+
 
 2 Access **DC-B**\> make a **RDC**\> signing in a **Joe\_Admin**\> from **mydomain.com** to access **Server Manager Dashboard.**
 
-![](RackMultipart20240524-1-trpzuw_html_2483773d757ddf75.png) ![](RackMultipart20240524-1-trpzuw_html_686e5b03a89a6c83.png)
-
-![](RackMultipart20240524-1-trpzuw_html_e2542f62fc894979.png)
+![FS 2a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0298658b-de37-4d3e-8923-7b60a55102e0)
 
 3 **RDC** into **Client-B** as a random employee **Bacek.Moju** from the \_ **EMPLOYEES** group on **mydomain.com**.
 
