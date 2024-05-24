@@ -7,7 +7,9 @@
 
 2 Access **DC-B**\> make a **RDC**\> signing in a **Joe\_Admin**\> from **mydomain.com** to access **Server Manager Dashboard.**
 
-![FS 2a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0298658b-de37-4d3e-8923-7b60a55102e0)
+![FS 2a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0298658b-de37-4d3e-8923-7b60a55102e0)![FS2b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/d36abd05-25a9-4273-87d4-b15789e469f1)
+![FS2c](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/2dd735a1-92ea-40c2-b292-13157bab2385)
+
 
 3 **RDC** into **Client-B** as a random employee **Bacek.Moju** from the \_ **EMPLOYEES** group on **mydomain.com**.
 
