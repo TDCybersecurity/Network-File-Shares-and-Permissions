@@ -1,4 +1,4 @@
-**CC Lab 7 Network Files Shares and Permissions**
+<h1><strong>Network File Sharing and Permissions</strong></h1>
 
 <h2>1 Go to portal.azure.com and confirm that DC-B and Client-B are running.</h2>
 
