@@ -1,22 +1,22 @@
 <h1><strong>Network File Sharing and Permissions</strong></h1>
 
-<h2>1 Go to portal.azure.com and confirm that DC-B and Client-B are running.</h2>
+<h2>1 Go to portal.azure.com and confirm that Domain Controller-B and Client-B are running.</h2>
 
 ![FS 1a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/940ec209-23e5-4f95-b88b-fa74dda329cb)
 
 
 
-<h2>2 Access DC-B\> make a RDC\> signing in as Joe\_Admin\> from mydomain.com to access Server Manager Dashboard.</h2>
+<h2>2 Access Domain Controller-B\> make a Remote Desktop Connection> signing in as Joe\_Admin\> from mydomain.com to access Server Manager Dashboard.</h2>
 
 ![FS 2a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0298658b-de37-4d3e-8923-7b60a55102e0)![FS2b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/d36abd05-25a9-4273-87d4-b15789e469f1)
 ![FS2c](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/2dd735a1-92ea-40c2-b292-13157bab2385)
 
 
-<h2>3 RDC into Client-B as a random employee Bacek.Moju from the \_ EMPLOYEES group on mydomain.com.</h2>
+<h2>3 Access Client-B via Remote Desktop Connection as a random employee Bacek.Moju from the \_ EMPLOYEES group on mydomain.com.</h2>
 
 ![](RackMultipart20240524-1-trpzuw_html_49a7627d6e1b4c66.png) ![](RackMultipart20240524-1-trpzuw_html_213060efe5b2f52f.png)
 
-<h2>4 On DB-B go to File Explorer\> C: Drive\> and create 3 new folders: read-access, write-access, and no-access.</h2>
+<h2>4 On the Domain Controller-B go to File Explorer\> C: Drive\> and create 3 new folders: read-access, write-access, and no-access.</h2>
 
 ![FS4a](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/d4dde5c4-5849-41bd-bbc7-280a916b8877)![FS4b](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/ba07d58d-192d-47d8-a7f6-bfd394d8bbec)
 
@@ -76,7 +76,7 @@ No access\> Generates a Network Error\> You have no access.
 ![FS 6g](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/9ce1ddc8-3451-4a5e-90c4-6025cf08ecbf)
 
 
-<h2>7 Go to Active Directory DC-B and create a Security Group called ACCOUNTANTS.</h2>
+<h2>7 Go to Active Directory Domain Controller-B and create a Security Group called ACCOUNTANTS.</h2>
 
 - Go to Server Manager Dashboard \> Tools \> ADUC \> make a new Organizational Unit called \_SECURITY GROUPS.
 - Go to mydomain.com \> Refresh \>
@@ -111,7 +111,7 @@ On Client-B enter DC-B\\ and locate the Accounting Folder and  double click.
 Observe NO ACCESS Network Error Windows cannot access \\dc-b accounting.
 ![FS 7h](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/00c24851-17d5-4419-b5db-eb09954745ba)
 
-Go to DC-B ADUC and make Bacek.Moju a member of the Security Groups > Accounts
+Go to Domain Controller-B ADUC and make Bacek.Moju a member of the Security Groups > Accounts
 ![FS 7d](https://github.com/TDCybersecurity/Network-File-Shares-and-Permissions/assets/142702123/0f2b1538-d439-4589-8465-662f358029a5)
 
 
